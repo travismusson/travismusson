@@ -232,6 +232,19 @@
       color: white;
     }
 
+    /*adding CV*/
+    .btn-cv {
+      background: linear-gradient(135deg, #8b5cf6, #6d28d9);
+      color: white;
+      box-shadow: 0 8px 32px rgba(239, 68, 68, 0.3);
+    }
+
+    .btn-cv:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 48px rgba(239, 68, 68, 0.4);
+      color: white;
+    }
+
     .btn::before {
       content: '';
       position: absolute;
@@ -388,6 +401,10 @@
             <i class="fab fa-github"></i>
             View GitHub
           </a>
+          <a href="TravisMussonCV.pdf" download class="btn btn-cv">
+            <i class="fas fa-file-pdf"></i>
+            Download CV
+          </a>
         </div>
         
         <!-- QR Code Section -->
@@ -445,4 +462,5 @@
     });
   </script>
 </body>
+
 </html>
